@@ -14,7 +14,7 @@
 </head>
 <body>
     <a href="./create.php">them</a>
-    <table border="1" witdh="100%">
+    <table border="1">
         <tbody>
             <?php
                 foreach($khoas as $row){ 
@@ -22,12 +22,12 @@
                <tr>
                    <td>
                        <?php
-                        echo "#" . $row['makhoa'];
+                        echo "#" . $row['maKhoa'];
                        ?>
                    </td>
                    <td>
                        <?php
-                        echo $row['tenkhoa'];
+                        echo $row['tenKhoa'];
                        ?>
                    </td>
                </tr> 
